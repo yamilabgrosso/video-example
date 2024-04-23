@@ -1,0 +1,89 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    color: #000000;
+    font-family: 'Poppins-Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+
+}
+
+body {
+    background-color: #ffffff;
+}
+
+
+header{
+        background-color: #ff8300;
+        height: 400px;
+}
+
+header video {
+    width: 100%;
+    height: 400px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .opciones {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+main .opciones .group-opciones {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+main .opciones .group-opciones div {
+    width: 80%;
+}
+
+main .opciones .group-opciones div img {
+    width: 100%;
+}
+
+
+main .contenedor {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    max-width: 1320px;
+    gap: 5%;
+}
+
+main .texto {
+width: 50%;
+}
+
+main .gif {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    }
+
+main .gif img{
+    width: 62%;
+}
+
+footer{
+    background-color: #CC8028;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+footer img{
+    width: 200px;
+    padding: 20px;
+}
